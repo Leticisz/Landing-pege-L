@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:  rgba(255, 255, 255, 0.96);
+    font-family: 'Josefin Slab', serif;
+}
+
+body{
+    background-color: rgb(34,34,34);
+}
+
+.linkbio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.linkbio img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.linkbio h1{
+    font-size: 40px;
+}
+
+.linkbio a{
+    background-color: rgb(24, 1, 1);
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 2px rgb(231, 69, 69);
+    border-radius: 10px;
+}
+
+.linkbio a:hover{
+    background-color: rgb(255, 85, 85);
+    color:  rgba(242, 0, 0, 0.96);
+}
